@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jua&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", serif;
+}
+
+body {
+  background-color: rgb(129, 129, 129);
+  position: relative;
+}
+
+/* CSS HEADER  */
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 30px;
+  left: 0;
+}
+
+.inner-header {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  padding: 25px 35px;
+  justify-content: space-between;
+  border-radius: 55px;
+}
+
+.inner-header span {
+  /* margin-left: 10px; */
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+.inner-header span:hover {
+  color: #ff589e;
+  transition: color ease 0.2s;
+}
+
+.inner-header span:nth-child(1) {
+  color: #ff589e;
+}
+
+.header img {
+  height: 33px;
+}
+
+.header .right-component {
+  display: flex;
+  align-items: center;
+  width: 73%;
+  justify-content: space-between;
+}
+
+.header .left-component {
+  display: flex;
+  align-items: center;
+}
+
+.header .hidden-component {
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  top: 23.8px;
+  color: #4d4d4ddd;
+  display: none;
+}
+
+.hidden-component i {
+  font-size: 35px;
+}
+
+/* END CSS HEADER  */
+@media only screen and (max-width: 1199.8px) {
+  .header span {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 991.8px) {
+  .header .hidden-component {
+    display: flex;
+  }
+
+  .header span {
+    display: none;
+  }
+}
