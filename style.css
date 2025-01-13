@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(129, 129, 129);
+  /* background-color: rgb(129, 129, 129); */
   position: relative;
 }
 
@@ -75,6 +75,8 @@ body {
   font-size: 35px;
 }
 
+/* END CSS HEADER  */
+
 /* CSS BOX-1  */
 
 .box-1 {
@@ -125,10 +127,70 @@ body {
 }
 
 /* END CSS BOX-1  */
-/* END CSS HEADER  */
+
+/* CSS BOX-2  */
+.box-2 {
+  /* background-color: #e8e8e8; */
+  margin-top: -220px;
+}
+
+.box-2 .inner-box-2 {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.box-2 .icon-block {
+  background-color: #8261ee;
+  width: fit-content;
+  padding: 22px 18px;
+  border-radius: 50%;
+}
+
+.box-2 h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.box-2 h3 {
+  font-size: 14px;
+  color: #777777;
+  text-align: center;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.box-2 .item {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px;
+  border-radius: 23px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.box-2 .item:hover .icon-block {
+  background-color: #ff589e;
+  transition: background-color ease 0.4s;
+}
+
+.box-2 .outer-item {
+  padding: 0px 22px;
+  margin-bottom: 44px;
+}
+/* END CSS BOX-2  */
+
 @media only screen and (max-width: 1199.8px) {
   .header span {
     font-size: 13px;
+  }
+
+  .box-2 .item {
+    padding: 40px 20px;
   }
 }
 
@@ -151,5 +213,15 @@ body {
   .box-1 .inner-box-1 p {
     font-size: 14px;
     width: 94%;
+  }
+
+  .box-2 .item {
+    padding: 40px 30px;
+  }
+}
+
+@media only screen and (max-width: 575.9px) {
+  .box-2 .outer-item {
+    margin-bottom: 26px;
   }
 }
