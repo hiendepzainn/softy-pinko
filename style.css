@@ -184,6 +184,86 @@ body {
 }
 /* END CSS BOX-2  */
 
+/* CSS BOX-3  */
+
+.box-3 {
+  /* background-color: aliceblue; */
+}
+
+.box-3 .inner-box-3 {
+  padding: 80px 0px;
+}
+
+.box-3 .left-block {
+  display: flex;
+  justify-content: center;
+}
+
+.box-3 .right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-3 img {
+  width: 300px;
+}
+
+.box-3 .right-block h3 {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  color: #777777;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.box-3 .right-block h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+/* END CSS BOX-3  */
+
+/* CSS BOX-4  */
+
+.box-4 {
+  /* background-color: rgb(225, 241, 255); */
+}
+
+.box-4 .inner-box-4 {
+  padding: 80px 0px;
+}
+
+.box-4 .right-block {
+  display: flex;
+  justify-content: center;
+}
+
+.box-4 .left-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-4 img {
+  width: 300px;
+}
+
+.box-4 .left-block h3 {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  color: #777777;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.box-4 .left-block h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+/* END CSS BOX-3  */
+
 @media only screen and (max-width: 1199.8px) {
   .header span {
     font-size: 13px;
@@ -201,6 +281,14 @@ body {
 
   .header span {
     display: none;
+  }
+
+  .box-3 .right-block {
+    margin-top: 40px;
+  }
+
+  .box-4 .right-block {
+    margin-top: 40px;
   }
 }
 
