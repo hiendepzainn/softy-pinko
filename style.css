@@ -386,6 +386,10 @@ body {
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
 }
 
+.box-6 .item:hover .text-infor {
+  transform: translateX(20px);
+}
+
 .box-6 img {
   width: 34px;
 }
@@ -428,6 +432,7 @@ body {
   width: fit-content;
   height: fit-content;
   margin-left: 20px;
+  transition: all 0.3s ease 0s;
 }
 
 .box-6 .infor {
