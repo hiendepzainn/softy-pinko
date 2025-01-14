@@ -14,6 +14,7 @@ body {
 /* CSS HEADER  */
 
 .header {
+  z-index: 999;
   width: 100%;
   position: fixed;
   top: 30px;
@@ -454,6 +455,113 @@ body {
 }
 
 /* END CSS BOX-6  */
+/* CSS BOX-7  */
+
+.box-7 {
+  background-color: #f2f2fe;
+}
+
+.box-7 .inner-box-7 {
+  padding: 110px 0px;
+}
+
+.box-7 .text-area h1 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.box-7 .text-area {
+  width: 46%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-7 p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #777777;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 55px;
+}
+
+.box-7 .item {
+  background-color: #fff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 40px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-7 .item h2 {
+  text-align: center;
+  font-size: 19px;
+}
+
+.box-7 .item h3 {
+  text-align: center;
+}
+
+.box-7 .price h1 {
+  font-size: 30px;
+}
+
+.box-7 .price h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.box-7 .price {
+  width: 100%;
+  background-color: #8261ee;
+  text-align: center;
+  padding: 25px 0px 15px;
+  color: #fff;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.box-7 .pink {
+  background-color: #ff589e;
+}
+
+.box-7 .outer-item {
+  padding: 0px 18px;
+}
+
+.box-7 h3 {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 20px;
+}
+
+.box-7 button {
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: #8261ee;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.box-7 button:hover {
+  background-color: #ff589e;
+  transition: background-color 0.4s ease;
+}
+
+.box-7 .delete {
+  text-decoration: line-through;
+}
+
+/* END CSS BOX-7  */
 
 @media only screen and (max-width: 1199.8px) {
   .header span {
@@ -521,6 +629,10 @@ body {
   .box-6 .text-infor {
     margin-left: 22px;
   }
+
+  .box-7 .item {
+    margin-bottom: 36px;
+  }
 }
 
 @media only screen and (max-width: 767.9px) {
@@ -536,6 +648,10 @@ body {
 
   .box-2 .item {
     padding: 40px 30px;
+  }
+
+  .box-7 h3 {
+    font-size: 16px;
   }
 }
 
