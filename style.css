@@ -784,6 +784,62 @@ body {
   background-color: #ff589e;
 }
 /* END CSS BOX-10  */
+/* CSS BOX-11  */
+
+.box-11 {
+  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+}
+
+.box-11 .inner-box-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-11 h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border-top: 1px solid #ffffff25;
+  width: 85%;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.box-11 .icon-component {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.box-11 .item {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.box-11 .item:hover {
+  background-color: #ff589e;
+}
+
+.box-11 .item:hover i {
+  color: #fff;
+}
+
+.box-11 i {
+  font-size: 18px;
+  color: #945ddf;
+  transition: all 0.3s ease 0s;
+}
+
+/* END CSS BOX-11 */
 
 @media only screen and (max-width: 1199.8px) {
   .header span {
@@ -808,6 +864,10 @@ body {
 
   .box-6 .text-infor {
     margin-left: 18px;
+  }
+
+  .box-11 .icon-component {
+    width: 35%;
   }
 }
 
@@ -898,6 +958,10 @@ body {
   .box-10 .text-area {
     width: 60%;
   }
+
+  .box-11 .icon-component {
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 767.9px) {
@@ -949,6 +1013,10 @@ body {
 
   .box-10 button {
     margin-left: 10px;
+  }
+
+  .box-11 .icon-component {
+    width: 65%;
   }
 }
 
